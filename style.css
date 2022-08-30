@@ -1,6 +1,3 @@
-body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
 .container {
     background-color: white;
@@ -24,10 +21,76 @@ body {
     color: aqua;
 }
 
-@media screen and (max-width: 480px) {
+
+
+@media screen and (max-width: 400px) {
     .header img {
-        width: 375px;
+        width: 360px;
         height: 100px;
+        
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .middle-section-2 img {
+        width: 360px;
+        height: 200px;
+        
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .header img {
+        width: 790px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .middle-section {
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .middle-section-2 img {
+        width: 790px;
+        height: 400px;
+        
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .footer img {
+        width: 790px;
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    .header img {
+        width: 1050px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    .footer img {
+        width: 340px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    .middle-section {
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    .middle-section-2 img {
+        width: 510px;
+        height: 440px;
+        
     }
 }
 
